@@ -50,7 +50,47 @@ h1 {
   font-size: 1.2em;
   font-family: sans-serif;
 }
-#radio-group input {
-  margin: 0;
-  padding: 0;
+#radio-group input, #radio-group label{
+  width: 10%;
+  height: 1.2em;
+  margin-bottom: 1.2em;
+}
+
+#select-head{
+  text-align: left;
+  font-size: 1.2em;
+  font-family: sans-serif;
+}
+
+#dropdown1 {
+  margin-bottom: 1.2em;
+  width: 60%;
+  height: 1.8em;
+}
+
+#checkboxes-head {
+  text-align: left;
+  font-size: 1.2em;
+  font-family: sans-serif;
+}
+
+#checkboxes input, #checkboxes label {
+  width: 10%;
+  height: 1.2em;
+  margin-bottom: 1.2em;
+}
+
+textarea, button {
+  width: 100%;
+  margin-bottom: 1.2em;
+}
+
+#textarea p {
+  text-align: left;
+  font-size: 1.2em;
+  font-family: sans-serif;
+}
+
+button {
+  height: 2em;
 }

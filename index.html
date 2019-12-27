@@ -11,23 +11,25 @@
 
     <h1 id="title">Simple Survey Form</h1>
 
-    <p id="description">This a simple form to get the Opinion Of users of a particular product</p>
+    <p id="description">This is a simple form to get the Opinion Of users concerning a particular brand</p>
 
     <form id="survey-form">
-      <label id="name-label">Name</label>
-      <input type="text" id="name" placeholder="Enter your name" required />
-      <label id="email-label">Email</label>
-      <input type="email" id="email" placeholder="Enter your Email Address" required />
-      <label id="number-label">Age</label>
-      <input type="number" id="number" placeholder="Enter your Email Address" min="18" max="90" />
+      <div id="label-box">
+      <label id="name-label">Name</label><br>
+      <input type="text" id="name" placeholder="Enter your name" required /><br>
+      <label id="email-label">Email</label><br>
+      <input type="email" id="email" placeholder="Enter your Email Address" required /><br>
+      <label id="number-label">Age</label><br>
+      <input type="number" id="number" placeholder="Enter your Email Address" min="18" max="90" /><br>
+      <div>
       <select name="" id="dropdown">
         <option value="1">1</option>
         <option value="2">2</option>
         <option value="3">3</option>
         <option value="4">4</option>
       </select>
+      <p id="radio-head">Would you recommend Microverse to a friend?</p>
       <div id="radio-group">
-        <p>Would you recommend Microverse to a friend?</p>
         <input value="1" name="radio" type="radio" />
         <label for="">Definitely</label>
         <input value="2" name="radio" type="radio" />
